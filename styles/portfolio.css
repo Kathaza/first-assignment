@@ -1,0 +1,20 @@
+.header{
+
+}
+
+.banner{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 1920px;
+    height: 850px;
+    padding: 229px, 84px, 115px, 0.10px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-pic{
+    width: 635px;
+    height: 800px;
+
+
+}
