@@ -1,20 +1,85 @@
 .header{
-
+    
 }
 
 .banner{
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0%;
+    padding: 80px 96px;
+    display: flex;    
+    width: 708px;
+    height: 288px;
+    justify-content: space-between;  
+    max-width: 500px; 
+
+}
+.text-primary{
+    color: #E55473;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 15PX 35PX;
+
+}
+
+.banner-content{
     width: 1920px;
     height: 850px;
-    padding: 229px, 84px, 115px, 0.10px;
-    display: flex;
-    align-items: center;
-
+    margin-left: auto;
 }
 .banner .profile-pic{
     width: 635px;
     height: 800px;
 
+
+}
+.banner-greeting{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0%;
+    margin-top: %;
+    padding: 240PX 72PX 197PX 3PX;
+    justify-content:space-between;   
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 240PX 18px PX 22px;
+    width: 634px;
+    height: 90px;
+}
+
+/*main section styles*/
+
+/*about section styles*/
+.about{
+    padding: 663px ;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 30px 0px;
+    
+}
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description{
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
 
 }
